@@ -1,0 +1,18 @@
+function Set-HostName{
+<#
+.SYNOPSIS
+Short description
+
+.DESCRIPTION
+Long description
+
+.EXAMPLE
+An example
+
+.NOTES
+General notes
+#>
+
+    Rename-Computer -NewName "$Global:Hostname"
+    
+    }
