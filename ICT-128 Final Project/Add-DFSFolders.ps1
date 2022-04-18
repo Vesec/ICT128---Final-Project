@@ -1,16 +1,13 @@
 function Add-DFSFolders{
   <#
   .SYNOPSIS
-  Short description
+  Creates a DFS replication group for each of the given drives in a specified array.
   
   .DESCRIPTION
-  Long description
-  
-  .EXAMPLE
-  An example
+  Creates DFS folders for a given array of drives, assigns specified server memberships, Staging Quotas, and share names for each drive.
   
   .NOTES
-  General notes
+  The five drives in the array can be swapped with a CSV file to assign the drive names and letters.
   #>
   
     $DriveArray = "Finance", "Internal", "IT Resources", "Marketing", "HR"

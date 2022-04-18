@@ -1,10 +1,10 @@
 function Add-ADGroup {
     <#
     .SYNOPSIS
-    Short description
+    Creates a group and targets users from two CSV files.
     
     .DESCRIPTION
-    Long description
+    Creates a group and targets users from two CSV files
     
     .EXAMPLE
     An example
