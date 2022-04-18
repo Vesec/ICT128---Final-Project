@@ -1,16 +1,11 @@
 function Add-GPOValues {
     <#
     .SYNOPSIS
-    Short description
+    Sets a GPO Registry Value
     
     .DESCRIPTION
-    Long description
-    
-    .EXAMPLE
-    An example
-    
-    .NOTES
-    General notes
+    Loads a list of CSV values containing the Policy Name, Value, Type, Key, and Target. Then adds the values to the Targetted GPO.
+
     #>
     
     
